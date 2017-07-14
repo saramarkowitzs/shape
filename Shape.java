@@ -1,6 +1,6 @@
 
 /**
- * Shape class is the base class for abstracting various geometric shapes
+ * Shape interface is the template used to define geometric shapes
  * 
  * @author Mr. Jaffe
  * @version 2017-07-14
@@ -26,5 +26,5 @@ public interface Shape
    * 
    * @return    The color
    */
-  double getColor();
+  String getColor();
 }
